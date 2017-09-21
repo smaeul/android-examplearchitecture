@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">Example Architecture</string>
+    <string name="child_activity_title">Child Activity</string>
+    <string name="child_fragment_1_title">Child Fragment 1</string>
+    <string name="child_fragment_2_title">Child Fragment 2</string>
+    <string name="main_fragment_1_title">Main Fragment 1</string>
+    <string name="main_fragment_2_title">Main Fragment 2</string>
+    <string name="start_child_activity">Start Child Activity</string>
+    <string name="switch_to_fragment_1">Switch to Fragment 1</string>
+    <string name="switch_to_fragment_2">Switch to Fragment 2</string>
 </resources>
