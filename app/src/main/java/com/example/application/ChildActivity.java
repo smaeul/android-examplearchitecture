@@ -12,7 +12,8 @@ public class ChildActivity extends Activity {
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        switchToFragment1();
+        if (getFragmentManager().findFragmentById(android.R.id.content) == null)
+            switchToFragment1();
     }
 
     public void switchToFragment1() {
